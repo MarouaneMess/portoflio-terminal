@@ -9,6 +9,12 @@ export default {
   },
   plugins: [
     createThemes({
+      dark: {
+        bgcol: "#000",
+        shebang: "rgb(13, 238, 22)",
+        symbol: "rgb(13, 238, 22)",
+        command: "rgb(255,255,255)",
+      },
       ubuntu: {
         bgcol: "#300a24",
         shebang: "rgb(22, 101, 52)",
